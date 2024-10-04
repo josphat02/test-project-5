@@ -1,0 +1,38 @@
+/* Base styles */
+.app-container {
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Light Theme */
+.light {
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* Dark Theme */
+.dark {
+  background-color: #333;
+  color: #f5f5f5;
+}
+
+.theme-toggle-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Light Button Style */
+.light .theme-toggle-btn {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Dark Button Style */
+.dark .theme-toggle-btn {
+  background-color: #f5f5f5;
+  color: #333;
+}
